@@ -9,13 +9,14 @@ Este proyecto es un desarrollo práctico de un **ciclo contable y fiscal complet
 
 La finalidad es mostrar los pasos de la realización acorde a la realidad de la manera más verídica posible y llevar a cabo el aprendizaje de este programa.
 
-### Resumen de operaciones registradas (Asientos 1 al 6)
+### Resumen de operaciones registradas (Asientos 1 al 7)
 | Asiento | Operación contable | Cuentas principales (PGC) | Importe |
 |:---|:---|:---|:---:|
-| **1 - 3** | Apertura, aprovisionamiento y facturación corriente | Grupos `1`, `5`, `600`, `700`, `472`, `477` | - |
-| **4** | Regularización de IVA y liquidación Modelo 303 | `477.0.0.000`, `472.0.0.000` $\rightarrow$ `475.0.0.000` | 504,00 €
-|**5**| Pago de deuda tributaria y conciliación bancaria | `475.0.0.000` $\rightarrow$ `572.0.0.001` | 504,00 €
-|**6**| Devengo de nómina mensual y costes sociales | `640`, `642` $\rightarrow$ `475.1`, `476`, `465` | 2.600,00 €
+| **1 - 3** | Apertura, aprovisionamiento y facturación corriente | Grupos `1`, `5`, `628`, `705`, `472`, `477` | - |
+| **4** | Regularización de IVA y liquidación Modelo 303 | `477.0.0.021`, `472.0.0.021` $\rightarrow$ `475.0.0.000` | 504,00 € |
+|**5**| Pago de deuda tributaria y conciliación bancaria | `475.0.0.000` $\rightarrow$ `572.0.0.001` | 504,00 € |
+|**6**| Devengo de nómina mensual y costes sociales | `640`, `642` $\rightarrow$ `475.1`, `476`, `465` | 2.600,00 € |
+|**7**| Regularización de IVA (1T - 31 de marzo) | `477.0.0.021`, `472.0.0.021` $\rightarrow$ `475.0.0.000`| 504,00 € |
 
 ---
 
