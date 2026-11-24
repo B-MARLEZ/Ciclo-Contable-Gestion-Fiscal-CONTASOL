@@ -9,14 +9,13 @@ Este proyecto es un desarrollo práctico de un **ciclo contable y fiscal complet
 
 La finalidad es mostrar los pasos de la realización acorde a la realidad de la manera más verídica posible y llevar a cabo el aprendizaje de este programa.
 
-### Resumen de operaciones registradas (Asientos 1 al 7)
+### Resumen de operaciones registradas (Asientos 1 al 6)
 | Asiento | Operación contable | Cuentas principales (PGC) | Importe |
 |:---|:---|:---|:---:|
-| **1 - 3** | Apertura, aprovisionamiento y facturación corriente | Grupos `1`, `5`, `628`, `705`, `472`, `477` | - |
-| **4** | Regularización de IVA y liquidación Modelo 303 | `477.0.0.021`, `472.0.0.021` $\rightarrow$ `475.0.0.000` | 504,00 € |
-|**5**| Pago de deuda tributaria y conciliación bancaria | `475.0.0.000` $\rightarrow$ `572.0.0.001` | 504,00 € |
-|**6**| Devengo de nómina mensual y costes sociales | `640`, `642` $\rightarrow$ `475.1`, `476`, `465` | 2.600,00 € |
-|**7**| Regularización de IVA (1T - 31 de marzo) | `477.0.0.021`, `472.0.0.021` $\rightarrow$ `475.0.0.000`| 504,00 € |
+| **1 - 3** | Constitución, suministros y prestación de servicios. | Grupos `1`, `5`, `628`, `705`, `472`, `477` | - |
+| **4** | Devengo de nómina mensual y costes sociales. | `640`, `642` $\rightarrow$ `475.1`, `476`, `465` | 2.600,00 €
+|**5**| Regularización de IVA (1 Trimestre) y liquidación Modelo 303. | `477.0.0.021`, `472.0.0.021` $\rightarrow$ `475.0.0.000` | 504,00 €
+|**6**| Pago de deuda tributaria (1 Trimestre) y conciliación bancaria. | `475.0.0.000` $\rightarrow$ `572.0.0.001` | 504,00 € |
 
 ---
 
@@ -34,7 +33,7 @@ La finalidad es mostrar los pasos de la realización acorde a la realidad de la 
 ## 💎 Presentación Pitch
 Lectura visual y el análisis técnico de cada asiento, con capturas del Diario de CONTASOL y la justificación normativa de cada uno.
 
-* **Archivo descargable:** [Ciclo Contable y Gestión Fiscal.pdf](./Ciclo-Contable-y-Gestión-Fiscal.pdf)
+* **Archivo descargable:** [Ciclo Contable y Gestión Fiscal](./Ciclo-Contable-y-Gestión-Fiscal.pdf)
 * **Enlace interactivo:** *[Pitch](https://pitch.com/v/ciclo-contable-y-gestin-fiscal-wjyf5h)*
 
 ---
